@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "compile": "npx hardhat compile",
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network goerli",
+    "interact": "npx hardhat run scripts/interact.js --network goerli"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
